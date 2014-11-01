@@ -351,3 +351,7 @@ section {
 .dl-padding {
 	padding: 2%;
 }
+
+ul, ol {
+	list-style-type: none;
+}
