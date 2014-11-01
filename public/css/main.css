@@ -332,18 +332,6 @@ body {
 	border-color: transparent;
 }
 
-.vertical-text {
-	-ms-writing-mode: tb-lr;
-	-webkit-writing-mode: vertical-lr;
-	-moz-writing-mode: vertical-lr;
-	-ms-writing-mode: vertical-lr;
-	writing-mode: vertical-lr;
-}
-
-.vertical-text-center {
-	width: 100%;
-}
-
 section {
 	margin: 8% 0;
 }
