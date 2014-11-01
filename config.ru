@@ -1,5 +1,5 @@
 use Rack::Static,
-  :urls => ["/img", "/js", "/css"],
+  :urls => ["/img", "/js", "/css", "/fonts", "/font-awesome","/less"],
   :root => "public"
 
 map "/" do
