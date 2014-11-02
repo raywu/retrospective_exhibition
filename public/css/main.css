@@ -365,7 +365,11 @@ body {
 }
 
 section {
-	margin: 8% 0;
+	/*margin: 1% 0;*/
+}
+
+.content-section {
+  padding: 8% 0 0 0;
 }
 
 .dl-padding {
