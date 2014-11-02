@@ -381,3 +381,7 @@ body {
 ul, ol {
 	list-style-type: none;
 }
+
+.list-inline > li {
+  padding: 2% 0;
+}
