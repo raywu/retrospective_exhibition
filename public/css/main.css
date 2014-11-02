@@ -364,12 +364,14 @@ body {
 	border-color: transparent;
 }
 
-section {
-	/*margin: 1% 0;*/
+.content-section {
+  padding: 7% 0 0 0;
 }
 
-.content-section {
-  padding: 8% 0 0 0;
+@media(max-width:767px) {
+  .content-section {
+    padding: 13% 0 0 0;
+  }
 }
 
 .dl-padding {
