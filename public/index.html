@@ -23,6 +23,7 @@
             <link rel="stylesheet" href="css/main.css">
     		<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
     		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
@@ -58,7 +59,7 @@
       							<li><a href="#download"><small>台灣住宅社區規劃設計問題之探源</small></a></li>
 				          </ul>
 				        </li>
-      				<li><a href="#autobiography">八十敘建築</a></li>
+      				<li><a href="#autobiography">吳明修建築師八十自述</a></li>
               <li class="dropdown addthis_toolbox">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">連結分享 <span class="caret"></span></a>
                   <ul class="dropdown-menu custom_images" role="menu">
@@ -205,15 +206,67 @@
 		    <div class="row">
 
 				<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
-            <h3>八十敘建築</h3>
+            <h3>吳明修建築師八十自述</h3>
         </div>
 
 				<div class="dl-padding col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
-					<h4>
-					  吳明修自傳
-					</h4>
 					<p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					<button type="button" class="btn btn-default">下載預覽</button>
+					<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">下載預覽</button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+
+              <div class="modal-content">
+
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                  <h4 class="modal-title" id="myModalLabel">吳明修建築師八十自述預覽下載</h4>
+                </div>
+
+                <div class="modal-body">
+
+                  <div id="mc_embed_signup">
+                    <form action="//raywu.us9.list-manage.com/subscribe/post?u=7a425159718a2613f16c7b3d1&amp;id=a8a285fd7c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                      <div id="mc_embed_signup_scroll">
+
+                        <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+
+                        <div class="mc-field-group">
+                          <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+                          </label>
+                          <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                        </div>
+
+                        <div class="mc-field-group">
+                          <label for="mce-FNAME">姓名  <span class="asterisk">*</span>
+                          </label>
+                          <input type="text" value="" name="FNAME" class="required" id="mce-FNAME">
+                        </div>
+
+                        <div id="mce-responses" class="clear">
+                          <div class="response" id="mce-error-response" style="display:none"></div>
+                          <div class="response" id="mce-success-response" style="display:none"></div>
+                        </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+
+                        <div style="position: absolute; left: -5000px;"><input type="text" name="b_7a425159718a2613f16c7b3d1_a8a285fd7c" tabindex="-1" value=""></div>
+
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+                        </div>
+
+                      </div>
+                    </form>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+
 				</div>
 
 		    </div> <!-- /container -->
@@ -279,6 +332,10 @@
             e.src='//www.google-analytics.com/analytics.js';
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+        <script type='text/javascript'>
+            (function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';}(jQuery));var $mcj = jQuery.noConflict(true);
         </script>
     </body>
 </html>
