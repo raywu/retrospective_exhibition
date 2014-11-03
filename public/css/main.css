@@ -394,3 +394,7 @@ ul, ol {
 .modal-footer {
   text-align: center !important;
 }
+
+.modal-footer > button {
+  margin: 2% 0;
+}
